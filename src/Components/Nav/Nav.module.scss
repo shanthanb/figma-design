@@ -1,0 +1,81 @@
+.Nav-container {
+  width: 100%;
+  background-color: #0a65c6 !important;
+  .nav{
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-right: 20px;
+.Linkedin {
+  width: 45px;
+  height: auto;
+}
+.user{
+  width: 40px;
+  height: auto;
+}
+.grid{
+  color: #ffffffcc;
+  height: 38px;
+  width: 36px;
+  border: 1px solid #ffffff78;
+  border-radius: 4px;
+}
+.Upgrade{
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  height: 40px;
+  width:220px;
+  font-size: 11px;
+  font-weight: 600;
+  background: #ffc700;
+}
+  }
+}
+
+.below-profile {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding-bottom: 0.1rem;
+  
+  p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: inherit;
+  }
+  hr{
+    height: 20px;
+    margin: auto 0px;
+    opacity: 0.3;
+  }
+  a{
+    margin-left: 8px;
+    color: inherit;
+    text-decoration: none;
+  }
+
+}
+@media (max-width:600px){
+  .Nav-container {
+    .nav{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+  }
+  .below-profile {
+    p{
+      display: grid;
+      font-size: 10px;
+      svg{
+        margin: auto;
+      }
+    }
+    a{
+      margin-left: 5px;
+      text-decoration: none;
+    }
+  
+  }
+}

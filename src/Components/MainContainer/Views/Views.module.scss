@@ -1,0 +1,52 @@
+.footer-head{
+    background-color: white;
+    border-radius: 7px;
+    padding: 2px 20px;
+    >:first-child{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 35px;
+    }
+
+    .ppl-also-viewed{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        >:first-child{
+            display: flex;
+            align-items: center;
+            >:nth-child(2){
+                margin-left: 10px;
+                font-size: 12px;
+                >:first-child{
+                    font-weight: 500;
+                }
+                >:nth-child(2){
+                    opacity: 0.5;
+                    max-width: 190px;
+                }
+            }
+        }
+        >:nth-child(2){
+            display: flex;
+            svg{
+                color: #0a65c6;
+            }
+            p{
+                position: absolute;
+                margin-top: -10px;
+                margin-left: 17px;
+                color: #0a65c6;
+            }
+        }
+        p{
+            margin: 0px;
+          }
+        img{
+            height: 40px;
+            width: 40px;
+            border-radius: 15px;
+        }
+    }
+}

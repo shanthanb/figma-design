@@ -1,0 +1,114 @@
+.about-navBar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 13px;
+    border-radius: 10px;
+    p{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      p{
+        margin-left: 5px;
+        font-weight: 600;
+        cursor: pointer;
+        text-decoration: none;
+  }
+    }
+    hr{
+      height: 20px;
+      margin: auto 0px;
+      opacity: 0.3;
+    }
+
+}
+.about-main-section{
+    margin-top: 13px;
+    width: auto;
+    margin-bottom: 13px;
+>:first-child{
+    background: white;
+    border-radius: 7px;
+    padding: 20px;
+    >:first-child{
+      margin: auto;
+      font-weight: 500;
+    }
+    >:nth-child(2){
+      font-size: 15px;
+    }
+}
+>:nth-child(2){
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background: #f0f0f6;
+    height: 340px;
+    img{
+        width: 200px;
+    }
+}
+.main-section-container{
+    >:nth-child(3){
+        display: flex;
+        font-size: 15px;
+        >div{
+
+           >div{
+            margin: 13px; 
+            >p{
+                padding: 0px;
+                margin: 0px;
+                margin-top: 10px;
+                font-weight: 500;
+            }}
+            width: 50%;
+            height: 102px;
+            border: 1px solid #e6e4e1;
+            border-radius: 10px;
+            display: flex;
+            align-items: flex-end;
+           // padding: 23px 8px 13px 18px;
+        }
+    }
+    >:nth-child(4){
+        text-align: center;
+        color: #0a65c6;
+    }
+}
+}
+ @media (max-width:600px) {
+   .about-main-section{
+     >:first-child{
+       >:nth-child(2){
+         font-size: 11px;
+       }
+     }
+   }
+  .main-section-container{
+    >:nth-child(3){
+      font-size: 11px !important;
+      >div{
+        height: 85px !important;
+      }
+    }
+    >:nth-child(4){
+      font-size: 12px;
+    }
+  }
+  
+.about-navBar {
+    display: flex;
+    p{
+      display: grid;
+      p{
+        margin-left: 5px;
+        text-decoration: none;
+        font-size: 10px;
+      }
+      svg{
+        margin: auto;
+      }
+    }
+  
+  }}
