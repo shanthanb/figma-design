@@ -19,7 +19,7 @@ function Views() {
                                 <img src={icons.Icons.rightIcon[itm].img} />
                                 <div>
                                     <p>{itm}</p>
-                                    <p>{`${icons.Icons.rightIcon[itm].type} - ${icons.Icons.rightIcon[itm].followers} followers`}</p>
+                                    <p><br/>{`${icons.Icons.rightIcon[itm].type}   •   ${icons.Icons.rightIcon[itm].followers} followers`}</p>
                                 </div>
                                 </div>
                                 <div>
