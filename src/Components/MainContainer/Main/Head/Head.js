@@ -12,8 +12,8 @@ function Head() {
                 <div>
                     <div><img src={icons.Icons.figma} /></div>
                     <p>Figma</p>
-                    <p>A design Platform for teams who build product together</p>
-                    <p>Design • San Francisco,CA • 101,282 followers</p>
+                    <p>A design platform for teams who build products together.</p>
+                    <p>Design &nbsp;•&nbsp; San Francisco,&nbsp;CA&nbsp; • &nbsp; 101,282 followers</p>
                     <a href='#'>See all 358 employes on LinkedIn <ArrowForwardIcon/></a>
                     <div className={styles['btns']} ><button><VisibilityIcon fontSize="small" /><p>+</p>Follow</button><button><ExitToAppOutlinedIcon/>Visit Website</button><button><p>...</p></button></div>
 
