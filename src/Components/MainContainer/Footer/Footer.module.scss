@@ -1,17 +1,17 @@
 .footer-container{
     margin-top: 10px;
-    padding: 10px;
+    padding: 15px;
     
     >:first-child{
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 10px;
         >p{
-            margin: 1px 43px 9px 10px;
+            margin: 1px 43px 9px 13px;
             display: flex;
             align-items: center;
             font-weight: 500;
-            font-size: 13px
+            font-size: 13px;
         }
     
     }
@@ -36,6 +36,7 @@
         >:first-child{
     >p{        margin: 3px 14px 3px 0px;
         font-size: 12px;
+        
     }
     
 }
