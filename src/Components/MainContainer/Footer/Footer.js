@@ -7,7 +7,7 @@ function Footer() {
         <div className={styles['footer-container']} >
            <div>
             <p>About</p>
-            <p>Accessibility Help Center</p>   
+            <p>Accessibility &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Help Center</p>
             <p>Privacy & Terms <ExpandMoreIcon/></p>
             <p>Ad Choices</p>
             <p>Advertising</p>
@@ -24,3 +24,4 @@ function Footer() {
 }
 
 export default Footer
+
